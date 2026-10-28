@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <!-- Abstract mineral crystalline structure -->
+  <defs>
+    <linearGradient id="crystalGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e87c6;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#ee7b2b;stop-opacity:0.2" />
+    </linearGradient>
+    <radialGradient id="crystalGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ee7b2b;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:transparent;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Crystalline fragments -->
+  <polygon points="150,100 200,50 280,80 250,150" fill="url(#crystalGrad1)" stroke="#2e87c6" stroke-width="1" opacity="0.6"/>
+  <polygon points="320,120 400,100 420,180 350,200" fill="url(#crystalGrad1)" stroke="#ee7b2b" stroke-width="1" opacity="0.5"/>
+  <polygon points="100,250 180,220 200,300 130,320" fill="url(#crystalGrad1)" stroke="#2e87c6" stroke-width="1" opacity="0.7"/>
+  <polygon points="380,280 460,250 500,340 420,370" fill="url(#crystalGrad1)" stroke="#ee7b2b" stroke-width="1" opacity="0.6"/>
+  <polygon points="200,400 280,380 320,460 240,490" fill="url(#crystalGrad1)" stroke="#2e87c6" stroke-width="1" opacity="0.5"/>
+
+  <!-- Accent points -->
+  <circle cx="220" cy="100" r="4" fill="#ee7b2b" opacity="0.8"/>
+  <circle cx="370" cy="140" r="3" fill="#2e87c6" opacity="0.8"/>
+  <circle cx="150" cy="280" r="4" fill="#ee7b2b" opacity="0.7"/>
+  <circle cx="440" cy="310" r="3" fill="#2e87c6" opacity="0.8"/>
+  <circle cx="260" cy="440" r="4" fill="#ee7b2b" opacity="0.7"/>
+
+  <!-- Glow effects -->
+  <circle cx="300" cy="300" r="150" fill="url(#crystalGlow)"/>
+</svg>
